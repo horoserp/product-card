@@ -1,0 +1,89 @@
+/* Universal Selector to remove default browser settings */
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Mont-medium";
+  src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Mont-bold";
+  src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(./assets/fonts/Fraunces/Fraunces-VariableFont_SOFTWONKopszwght.ttf);
+  font-weight: 700;
+}
+
+/* CSS Variables */
+:root {
+  /* Primary */
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --Dark-blue: rgb(28, 35, 43);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+:root,
+[data-bs-theme="light"] {
+  --bs-primary: #f2ebe3;
+  --bs-primary-rgb: 242, 235, 227;
+  --bs-light: #ffffff;
+  --bs-light-rgb: 255, 255, 255;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #3c8067;
+  --bs-btn-border-color: #3c8067;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #5c636a;
+  --bs-btn-hover-border-color: #565e64;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #565e64;
+  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #3c8067;
+  --bs-btn-disabled-border-color: #3c8067;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Mont-medium";
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
