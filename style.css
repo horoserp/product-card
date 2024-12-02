@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Fraunces";
-  src: url(./assets/fonts/Fraunces/Fraunces-VariableFont_SOFTWONKopszwght.ttf);
+  src: url(./assets/fonts/Fraunces/static/Fraunces_9pt_Soft-Black.ttf);
   font-weight: 700;
 }
 
@@ -74,7 +74,8 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Fraunces";
 }
 
