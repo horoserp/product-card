@@ -41,6 +41,8 @@
   --bs-primary-rgb: 242, 235, 227;
   --bs-light: #ffffff;
   --bs-light-rgb: 255, 255, 255;
+  --bs-secondary: #3c8067;
+  --bs-seondary-rgb: 60, 128, 103;
 }
 
 .btn-secondary {
@@ -66,6 +68,18 @@ html {
 
 body {
   font-family: "Mont-medium";
+}
+
+h1 {
+  letter-spacing: 0.5rem;
+}
+
+h2 {
+  font-family: "Fraunces";
+}
+
+.card-text {
+  font-size: 1.2rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
