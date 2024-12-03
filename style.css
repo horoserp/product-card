@@ -84,6 +84,24 @@ h1 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  img[alt~="Perfume"] {
+    height: 250px !important;
+    object-fit: cover;
+    object-position: 0px -130px;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 1rem !important;
+    border-top-left-radius: 1rem !important;
+  }
+
+  .mycard {
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+  }
+
+  body {
+    padding: 12px !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -100,4 +118,17 @@ h1 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+}
+
+/* Desktop */
+@media only screen and (min-width: 1900px) {
+  .mycard {
+    display: flex;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
