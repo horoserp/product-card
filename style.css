@@ -74,8 +74,7 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
-h2,
-h3 {
+:where(h2, h3) {
   font-family: "Fraunces";
 }
 
