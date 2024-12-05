@@ -49,11 +49,17 @@
       <section class="row">
         <div class="col"></div>
         <div class="col-xs-3 col-xl-3 px-0">
-          <img
-            src="./assets/images/image-product-desktop.jpg"
-            alt="Perfume Bottle"
-            class="img-fluid w-100 rounded-start"
-          />
+          <picture>
+            <source
+              media="(min-width: 650px)"
+              srcset="./assets/images/image-product-desktop.jpg"
+            />
+            <img
+              src="./assets/images/image-product-mobile.jpg"
+              alt="Perfume Bottle"
+              class="w-100"
+            />
+          </picture>
         </div>
         <div class="col-xs-3 col-xl-3 px-5 py-4 bg-light rounded-end mycard">
           <article class="card-body pt-3 pb-3">

@@ -85,9 +85,6 @@ h1 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   img[alt~="Perfume"] {
-    height: 250px !important;
-    object-fit: cover;
-    object-position: 0px -130px;
     border-bottom-left-radius: 0px !important;
     border-top-right-radius: 1rem !important;
     border-top-left-radius: 1rem !important;
